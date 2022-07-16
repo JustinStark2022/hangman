@@ -7,7 +7,7 @@ export default function App() {
             <h1>Welcome to Hangman</h1>
             <p>Do you want to play the Hangman Game?</p>
             <div>
-                <GameBoard secretWord="React" />
+                <GameBoard secretWord="ReactMaster" />
             </div>
         </div>);
 }

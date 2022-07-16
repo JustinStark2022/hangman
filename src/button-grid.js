@@ -1,5 +1,6 @@
 import Button from './button';
-export default function() {
+// eslint-disable-next-line
+export default function({letterGuessed}) {
     let letters = [
         'A','B','C','D','E','F','G','H',
         'I','J','K','L','M','N','O','P',
@@ -11,11 +12,13 @@ export default function() {
         <Button 
             value={letter}
             key={index}
+            onClick={letterGuessed}
         />
     ))
+    
     return (
         <div className="flex flex-wrap mt-10">
-             {buttons}
+            {buttons}
         </div>
     )
 }
