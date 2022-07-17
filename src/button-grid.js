@@ -19,7 +19,7 @@ export default function({letterGuessed, isShown}) {
     let className = 'flex flex-wrap mt-10';
 
     if (!isShown) {
-        className += ' hidden';
+        className += 'hidden';
     }
     
     return (

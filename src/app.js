@@ -15,8 +15,9 @@ export default function App() {
                     wordSelected={val => setSecretWord(val)}
                 />
                 <GameBoard 
-                    secretWord="ReactMaster" 
+                    secretWord={secretWord} 
                     maxErrors={6}
+                    isShown={secretWord}
                 />
             </div>
         </div>);
