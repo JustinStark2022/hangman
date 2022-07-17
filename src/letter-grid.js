@@ -1,4 +1,5 @@
 import Letter from './letter';
+// eslint-disable-next-line
 export default function({secretWord, guessedLetters}) {
     let letters = secretWord
                     .split('')

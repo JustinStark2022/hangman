@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default function ({value, isShown}) {
     let output = ' ';
 
