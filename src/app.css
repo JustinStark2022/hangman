@@ -38,3 +38,7 @@
 .guessed {
     display: none;
 }
+
+.hidden {
+    display: none;
+}
